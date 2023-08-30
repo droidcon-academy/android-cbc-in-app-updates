@@ -1,2 +1,3 @@
 # Study materials and source code for **Droidcon Academy** course 
-> # Add Course Name 
+> # Triggering In-App Updates Using Firebase Remote Config in Android
+

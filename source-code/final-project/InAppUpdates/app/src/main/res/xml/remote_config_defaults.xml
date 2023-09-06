@@ -1,0 +1,10 @@
+<defaultsMap>
+    <entry>
+        <key>app_version</key>
+        <value>1</value>
+    </entry>
+    <entry>
+        <key>force_update</key>
+        <value>false</value>
+    </entry>
+</defaultsMap>

@@ -55,7 +55,6 @@ class MainActivity : ComponentActivity() {
 
     override fun onResume() {
         super.onResume()
-        val appUpdateManager = AppUpdateManagerFactory.create(applicationContext)
         appUpdateManager
             .appUpdateInfo
             .addOnSuccessListener { appUpdateInfo ->

@@ -2,16 +2,17 @@ plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
     id("com.google.gms.google-services")
+    id("org.jetbrains.kotlin.plugin.compose") version ("2.0.0")
 }
 
 android {
     namespace = "com.droidcon.inappupdates"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.droidcon.inappupdates"
         minSdk = 26
-        targetSdk = 34
+        targetSdk = 35
         versionCode = 1
         versionName = "1.0"
 
